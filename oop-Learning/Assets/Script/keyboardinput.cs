@@ -8,7 +8,7 @@ namespace learning_data
     {
         void Update()
         {
-            if (Keyboard.current.rightArrowKey.isPressed)
+            if (Keyboard.current.dKey.isPressed)
             {
                 virualinputManager.Instance.MoveRight = true;
             }
@@ -17,7 +17,7 @@ namespace learning_data
                 virualinputManager.Instance.MoveRight = false;
             }
 
-            if (Keyboard.current.leftArrowKey.isPressed)
+            if (Keyboard.current.aKey.isPressed)
             {
                 virualinputManager.Instance.MoveLeft = true;
             }
