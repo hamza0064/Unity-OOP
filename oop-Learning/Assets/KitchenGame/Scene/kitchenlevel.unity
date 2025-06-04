@@ -603,6 +603,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7321798165719155433, guid: 423c1837bfec447448d41d356eed097c, type: 3}
+      propertyPath: Tomatoprefab
+      value: 
+      objectReference: {fileID: 6255204401352558020, guid: 79029dc3e68f1a64797ecab3e7780cbf, type: 3}
+    - target: {fileID: 7321798165719155433, guid: 423c1837bfec447448d41d356eed097c, type: 3}
+      propertyPath: KitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: c71028a167f224849a72a72f8b9b6f52, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -739,7 +747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3907311, y: -0.000006804416, z: 0.000016030202, w: 0.9205049}
+  m_LocalRotation: {x: 0.3907311, y: 0, z: 0, w: 0.9205049}
   m_LocalPosition: {x: 0, y: 10.5, z: -10.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -931,6 +939,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8087428310340325113, guid: bbcf9f4a2ea8bf249ba44b7cc4119983, type: 3}
   m_PrefabInstance: {fileID: 1253350634}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1255576902 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7321798165719155433, guid: 423c1837bfec447448d41d356eed097c, type: 3}
+  m_PrefabInstance: {fileID: 847462675}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2d946d8fe7e55499e2b1a887d4a195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1291591568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1105,6 +1124,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7321798165719155433, guid: 423c1837bfec447448d41d356eed097c, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7321798165719155433, guid: 423c1837bfec447448d41d356eed097c, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1255576902}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

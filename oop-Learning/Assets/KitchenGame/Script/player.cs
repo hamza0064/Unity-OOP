@@ -67,9 +67,7 @@ namespace kitchen_Project
                     // clearcounters.Interact();
                     if (clearcounters != selectedCouter)
                     {
-                        
                         SetSelectCounter(clearcounters);
-                       
                     }
 
                 }
