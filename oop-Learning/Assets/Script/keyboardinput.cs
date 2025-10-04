@@ -8,23 +8,23 @@ namespace learning_data
     {
         void Update()
         {
-            if (Keyboard.current.dKey.isPressed)
-            {
-                virualinputManager.Instance.MoveRight = true;
-            }
-            else
-            {
-                virualinputManager.Instance.MoveRight = false;
-            }
+            //if (Keyboard.current.dKey.isPressed)
+            //{
+            //    virualinputManager.Instance.MoveRight = true;
+            //}
+            //else
+            //{
+            //    virualinputManager.Instance.MoveRight = false;
+            //}
 
-            if (Keyboard.current.aKey.isPressed)
-            {
-                virualinputManager.Instance.MoveLeft = true;
-            }
-            else
-            {
-                virualinputManager.Instance.MoveLeft = false;
-            }
+            //if (Keyboard.current.aKey.isPressed)
+            //{
+            //    virualinputManager.Instance.MoveLeft = true;
+            //}
+            //else
+            //{
+            //    virualinputManager.Instance.MoveLeft = false;
+            //}
 
         }
     }

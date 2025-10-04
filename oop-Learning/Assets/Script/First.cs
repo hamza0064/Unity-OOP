@@ -7,15 +7,15 @@ namespace learning_data
     {
         void Update()
         {
-            if (virualinputManager.Instance.MoveRight)
-            {
-                this.gameObject.transform.Translate(Vector3.forward * 10f * Time.deltaTime);
-                // Debug.Log("");
-            }
-            else if (virualinputManager.Instance.MoveLeft)
-            {
-                this.gameObject.transform.Translate(-Vector3.forward * 10f * Time.deltaTime);
-            }
+            //if (virualinputManager.Instance.MoveRight)
+            //{
+            //    this.gameObject.transform.Translate(Vector3.forward * 10f * Time.deltaTime);
+            //    // Debug.Log("");
+            //}
+            //else if (virualinputManager.Instance.MoveLeft)
+            //{
+            //    this.gameObject.transform.Translate(-Vector3.forward * 10f * Time.deltaTime);
+            //}
         }
 
 

@@ -5,21 +5,23 @@ namespace learning_data
 {
     public class virualinputManager : MonoBehaviour
     {
-        public static virualinputManager Instance = null;
+        //public static virualinputManager Instance = null;
 
-        void Awake()
-        {
-            if (Instance == null)
-            {
-                Instance = this;
-            }
-            else if (Instance != null)
-            {
-                Destroy(this.gameObject);
-            }
-        }
+        //public Vector2 MoveInput { get; set; }
 
-        public bool MoveRight;
-        public bool MoveLeft;
+        //void Awake()
+        //{
+        //    if (Instance == null)
+        //    {
+        //        Instance = this;
+        //    }
+        //    else if (Instance != null)
+        //    {
+        //        Destroy(this.gameObject);
+        //    }
+        //}
+
+        //public bool MoveRight;
+        //public bool MoveLeft;
     }
 }

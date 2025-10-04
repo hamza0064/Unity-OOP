@@ -34,11 +34,12 @@ namespace kitchen_Project
 
 
 
-        public Vector2 GetMovementVectorNormalize()
+        public void GetMovementVectorNormalize()
         {
             Vector2 inputVector = playerinputactions.Player.Move.ReadValue<Vector2>();
             inputVector = inputVector.normalized;
-            return inputVector;
+            centeralHub.Instance.MoveInput = inputVector;
+            //return inputVector;
         }
     }
 }
