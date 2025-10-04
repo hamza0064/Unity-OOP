@@ -12,7 +12,7 @@ public class withNormalization : MonoBehaviour
 
         // Normalize kar do ? sirf direction bacha, length = 1
         dir.Normalize();
-
+        Debug.Log(dir);
         // Ab speed constant hai
         transform.position += dir * speed * Time.deltaTime;
     }

@@ -9,7 +9,7 @@ public class withoutNormalization : MonoBehaviour
     {
         // Player tak ka direct vector
         Vector3 dir = player.position - transform.position;
-
+        Debug.Log(dir);
         // Enemy ko move karo (lekin distance bhi include ho rahi hai)
         transform.position += dir * speed * Time.deltaTime;
     }
