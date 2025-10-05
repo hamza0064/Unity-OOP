@@ -24,6 +24,9 @@ public class EnemySpawner : MonoBehaviour
 
             Vector3 spawnPos = transform.position + randomLocation;
 
+
+
+
             factory.CreateEnemy(spawnPos);
         }
     }
