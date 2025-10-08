@@ -21,4 +21,9 @@ public class enemy : character_Class
         transform.position += dir * speed * Time.deltaTime;
 
     }
+
+    public override void Attack()
+    {
+        // Implement attack logic here
+    }
 }

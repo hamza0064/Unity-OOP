@@ -45,4 +45,10 @@ public class player : character_Class
         }
     }
 
+
+    public override void Attack()
+    {
+        // Implement attack logic here
+    }
+
 }
